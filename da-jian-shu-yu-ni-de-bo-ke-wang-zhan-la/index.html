@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>搭建属于你的博客网站啦！ | fallo4</title>
+<link rel="shortcut icon" href="https://faloo4.github.io/favicon.ico?v=1635430978557">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://faloo4.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="搭建属于你的博客网站啦！ | fallo4 - Atom Feed" href="https://faloo4.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="搭建一个个人博客需要什么呢？
+唯一需要的就是耐心、坚持，你需要在遇到问题时自己去网上查找答案，有时候一个问题就要查半天，最后还有可能没解决，但是当问题解决时的满足感令人愉悦。
+我是利用GitHub+Hexo搭建博客，我买了个.com的域名，..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://faloo4.github.io">
+  <img class="avatar" src="https://faloo4.github.io/images/avatar.png?v=1635430978557" alt="">
+  </a>
+  <h1 class="site-title">
+    fallo4
+  </h1>
+  <p class="site-description">
+    💦​ ​不​管​你​做​什​么​
+​◌​先​干​起​来​！​！​！​
+​◌​你​就​干​掉​了​5​0​%​的​竞​争​者​ ​
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              搭建属于你的博客网站啦！
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-10-28
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://faloo4.github.io/post-images/da-jian-shu-yu-ni-de-bo-ke-wang-zhan-la.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>搭建一个个人博客需要什么呢？</p>
+<p>唯一需要的就是耐心、坚持，你需要在遇到问题时自己去网上查找答案，有时候一个问题就要查半天，最后还有可能没解决，但是当问题解决时的满足感令人愉悦。</p>
+<p>我是利用GitHub+Hexo搭建博客，我买了个.com的域名，一年55元（价格会有波动，有时还会有优惠码），你也可以选一个便宜的只要8元一年，甚至你可以不用买域名（对搭建网站没有影响），但是我觉得我登录网站时输入http://xxx.com很有格调。</p>
+<p>下面你只要一步一步跟着走就能搭建属于你的博客网站啦！<img src="https://faloo4.github.io/post-images/1635422268102.jpg" alt="" loading="lazy">😜</p>
+<!-- more -->
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://faloo4.github.io/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://faloo4.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
