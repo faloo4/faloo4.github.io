@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faloo4.github.io</id>
-    <title>fallo4</title>
-    <updated>2021-10-28T15:16:37.996Z</updated>
+    <title></title>
+    <updated>2021-10-28T15:47:34.526Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://faloo4.github.io"/>
     <link rel="self" href="https://faloo4.github.io/atom.xml"/>
-    <subtitle>💦​ ​不​管​你​做​什​么​
-​◌​先​干​起​来​！​！​！​
-​◌​你​就​干​掉​了​5​0​%​的​竞​争​者​ ​</subtitle>
+    <subtitle>夜雪初霁，荠麦弥望。——姜夔《扬州慢·淮左名都》</subtitle>
     <logo>https://faloo4.github.io/images/avatar.png</logo>
     <icon>https://faloo4.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, fallo4</rights>
+    <rights>All rights reserved 2021, </rights>
     <entry>
         <title type="html"><![CDATA[中本聪零成本挖矿]]></title>
         <id>https://faloo4.github.io/zhong-ben-cong/</id>
         <link href="https://faloo4.github.io/zhong-ben-cong/">
         </link>
         <updated>2021-10-28T12:57:20.000Z</updated>
-        <content type="html"><![CDATA[<p>⚠️温馨提示：<br>
-⚠️矿工挖出来的BTCs赶紧领取<br>
-⚠️每天早中晚没事就可以领取<br>
-⚠️超过25小时不领取会暂停挖矿<br>
-注册下载 :<br>
-https://www.btc2100-c.com/mining/?1a2bt<br>
-<img src="https://faloo4.github.io/post-images/1635426041680.jpg" alt="" loading="lazy"><br>
-🅱️做BTCs 就三件事<br>
-🅱️第一件：每天领取收益<br>
-🅱️第二件：招募旷工（推广）<br>
-🅱️第三件：做任务，任务就是组合算力卡互换，类似组团拼单。与其他矿工组合算力卡片，组合互换成功，获得算力值增加，算力越多挖矿收益占比越高。<br>
-<img src="https://faloo4.github.io/post-images/1635432876547.jpg" alt="" loading="lazy"><br>
-<img src="https://faloo4.github.io/post-images/1635432935922.jpg" alt="" loading="lazy"><br>
-<img src="https://faloo4.github.io/post-images/1635432943980.jpg" alt="" loading="lazy"></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建属于你的博客网站啦！]]></title>
@@ -40,42 +23,5 @@ https://www.btc2100-c.com/mining/?1a2bt<br>
         <link href="https://faloo4.github.io/da-jian-shu-yu-ni-de-bo-ke-wang-zhan-la/">
         </link>
         <updated>2021-10-28T11:57:25.000Z</updated>
-        <content type="html"><![CDATA[<p>搭建一个个人博客需要什么呢？</p>
-<p>唯一需要的就是耐心、坚持，你需要在遇到问题时自己去网上查找答案，有时候一个问题就要查半天，最后还有可能没解决，但是当问题解决时的满足感令人愉悦。</p>
-<p>我是利用GitHub+Hexo搭建博客，我买了个.com的域名，一年55元（价格会有波动，有时还会有优惠码），你也可以选一个便宜的只要8元一年，甚至你可以不用买域名（对搭建网站没有影响），但是我觉得我登录网站时输入http://xxx.com很有格调。</p>
-<p>下面你只要一步一步跟着走就能搭建属于你的博客网站啦！!<br>
-<img src="https://faloo4.github.io/post-images/1635433226812.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://faloo4.github.io/hello-gridea/</id>
-        <link href="https://faloo4.github.io/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 [DisqusJS](https://github.co</p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
     </entry>
 </feed>
